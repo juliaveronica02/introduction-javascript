@@ -221,3 +221,17 @@ const dataBaru = {
 }
 const personWithNewData = Object.assign(person, bodyMeasure, dataBaru)
 console.log(personWithNewData);
+
+
+// tambahan :)
+// split
+function splitString (string) {
+    return string.split('')
+}
+console.log(splitString("Teknokasi"))
+
+// reverse
+function reverseString(string2) {
+    return string2.split('').reverse();
+}
+console.log(reverseString("Teknokasi"))

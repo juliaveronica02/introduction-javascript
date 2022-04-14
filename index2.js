@@ -308,3 +308,4 @@ function greeting() {
 }
 greeting()
 console.log(a + b); // error
+

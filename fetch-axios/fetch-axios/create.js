@@ -1,6 +1,6 @@
 const axios = require('axios')
 axios.post('http://localhost:3000/users', {
-    id: 3,
+    id: 2,
     first_name: "kath",
     last_name: "thrine",
     age: 21

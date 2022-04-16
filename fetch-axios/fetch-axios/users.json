@@ -1,10 +1,16 @@
 {
-  "sekolah A": [
+  "users": [
     {
       "first_name": "Budi",
       "last_name": "Gunawan",
       "age": 21,
       "id": 1
+    },
+    {
+      "id": 2,
+      "first_name": "Yu",
+      "last_name": "Lun",
+      "age": 21
     },
     {
       "id": 3,

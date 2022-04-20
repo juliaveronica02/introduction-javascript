@@ -11,6 +11,7 @@ const Navbar = () => {
             </div>
             <div className='bg-color'>
                 <ul className='ul'>
+                    {/* a href -> Link to -> link (url) to (route) */}
                     <li className='li'> <Link to="/"> HOME </Link></li>
                     <li className='li'> <Link to="/about"> ABOUT </Link></li>
                     <li className='li'> <Link to="/portfolio"> PORTFOLIO </Link></li>

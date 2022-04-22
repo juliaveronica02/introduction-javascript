@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Teknokasi",
+      "last_name": "edutech",
+      "age": 20
+    },
+    {
+      "id": 2,
+      "first_name": "Yu",
+      "last_name": "Lun",
+      "age": 21
+    },
+    {
+      "first_name": "nodejs",
+      "last_name": "nodejs",
+      "age": "12",
+      "id": 3
+    },
+    {
+      "first_name": "nodejs",
+      "last_name": "",
+      "age": "12",
+      "id": 4
+    },
+    {
+      "first_name": "Teknokasi",
+      "last_name": "Edu",
+      "age": "5",
+      "id": 5
+    }
+  ]
+}

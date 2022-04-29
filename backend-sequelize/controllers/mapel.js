@@ -18,6 +18,12 @@ module.exports = {
             throw err
         })
     },
+    // get data byId
+    getDataById: (req, res) => {
+        Mapel.findOne({where: {id: req.params.mapelId}})
+        .then((result) => res. status(200).json(result))
+        .catch((err) => res.status(400).json(err))
+    },
     // update data by id
     updateDataById: (req, res) => {
         Mapel.update({
@@ -27,5 +33,11 @@ module.exports = {
         .catch((err)=> {
             throw err
         })
+    },
+    // delete data by id
+    deleteDataById: (req, res) => {
+        Mapel.destroy({where: {id: req.params.mapelId}})
+        .then((result) => res. status(200).json(result))
+        .catch((err) => res.status(400).json(err))
     }
 }

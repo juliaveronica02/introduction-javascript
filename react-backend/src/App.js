@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import MapelList from './pages/get-delete'
 import CreateMapel from './pages/create'
 import EditMapel from './pages/edit'
+import Home from './pages/home'
 
 function App () {
   // UI navbar.
@@ -19,6 +20,9 @@ function App () {
                 <li className='nav-item'>
                   <Link to={'/MapelList'} className="nav-link">Mapel List</Link>
                 </li>
+                <li className='nav-item'>
+                  <Link to={'/Home'} className="nav-link">Home</Link>
+                </li>
               </ul>
             </div>
           </nav>
@@ -27,6 +31,7 @@ function App () {
             <Route exact path='CreateMapel' element={<CreateMapel/>}  />
             <Route exact path='MapelList' element={<MapelList/>}  />
             <Route exact path='EditMapel/:id' element={<EditMapel/>}  />
+            <Route exact path='Home' element={<Home/>}  />
           </Routes>
         </div>
       </Router>

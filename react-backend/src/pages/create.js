@@ -3,6 +3,7 @@ import axios from 'axios'
 // reactjs v6 -> push.history diganti menjadi useNavigate -> useHistory v5
 import {useNavigate} from 'react-router-dom'
 import {Button, Card, CardBody, CardFooter, Col, Container, Form, Input, InputGroup, Row} from 'reactstrap'
+// import image from '../assets/images/IMG_8704.JPG'
 
 function CreateMapel(props) {
     const [mapel, setMapel] = useState({nama: ''})
@@ -33,6 +34,7 @@ function CreateMapel(props) {
                         <Card className='mx-4'>
                             <CardBody className='p-4'>
                                 <Form onSubmit={insertMapel}>
+                                    {/* <img src={image}/> */}
                                     <h1>Add Data</h1>
                                     <InputGroup className='mb-3'>
                                         <Input type='text' name="nama" id="nama" placeholder='nama' value={mapel.nama} onChange={onChange}/>
